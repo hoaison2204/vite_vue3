@@ -1,14 +1,16 @@
 <template>
-	<h1>Home</h1>
-	<p>This is the home page</p>
+	<h1 class="text-red-500">Home Page</h1>
 	<p>
-		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, cumque harum
-		dolores hic eum laborum asperiores fuga dolore et neque a iusto quo
-		architecto? Asperiores error minus vel similique eaque.
+		{{ bodyText }}
 	</p>
-	<CounterButton />
 </template>
 
-<script setup>
-	import CounterButton from '../components/CounterButton.vue'
+<script>
+	export default {
+		data(){
+			return {
+				bodyText: 'This is a website that call some of free APIs with router navigation'
+			}
+		}
+	}
 </script>
