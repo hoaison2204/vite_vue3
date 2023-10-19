@@ -1,5 +1,5 @@
 <template>
-    <button @click="counter++">{{ counter }}</button>
+    <button class="px-10 rounded outline outline-1 outline-stone-500" @click="counter++">{{ counter }}</button>
 </template>
 
 <script setup>

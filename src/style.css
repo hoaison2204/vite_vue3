@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#app{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 8px 16px 0;
+}
+
+h1{
+    font-size: 32px;
+    @apply font-semibold text-center;
+}
