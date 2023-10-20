@@ -22,8 +22,7 @@
 	<div>
 		<router-view />
 	</div>
-	<footer class="bg-pink-100 text-center py-2">
-		<CounterButton />
+	<footer>
 	</footer>
 </template>
 
